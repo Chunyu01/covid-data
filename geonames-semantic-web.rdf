@@ -1,0 +1,46 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <void:Dataset rdf:about="http://lod-cloud.net/dataset/geonames-semantic-web">
+    <void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >93896732</void:triples>
+    <dcterms:subject>provenance-metadata</dcterms:subject>
+    <dcterms:subject>lodcloud-diagram-2007-05-01</dcterms:subject>
+    <dcterms:subject>published-by-producer</dcterms:subject>
+    <dcterms:subject>lodcloud-diagram-2011-09-19</dcterms:subject>
+    <dcterms:title xml:lang="en">GeoNames Semantic Web</dcterms:title>
+    <dcterms:subject>no-deref-vocab</dcterms:subject>
+    <dcat:distribution rdf:parseType="Resource">
+      <dcat:accessURL rdf:resource="http://www.geonames.org/ontology/ontology_v2.1.rdf"/>
+    </dcat:distribution>
+    <void:exampleResource rdf:resource="http://sws.geonames.org/3020251/about.rdf"/>
+    <foaf:homepage rdf:resource="http://www.geonames.org/ontology/"/>
+    <dcterms:subject>geography</dcterms:subject>
+    <dcterms:subject>format-geo</dcterms:subject>
+    <dcterms:subject>format-rdf</dcterms:subject>
+    <dcterms:description xml:lang="en">The GeoNames Ontology makes it possible to add geospatial semantic information to the Word Wide Web. All over 6.2 million geonames toponyms now have a unique URL with a corresponding RDF web service. Other services describe the relation between toponyms.&#xD;
+&#xD;
+SPARQL endpoints for this data are made available by third parties. [Geonames at Kasabi](http://kasabi.com/dataset/geonames/), and [FactForge](http://factforge.net/sparql) has it loaded as well.</dcterms:description>
+    <dcterms:subject>no-vocab-mappings</dcterms:subject>
+    <dcterms:subject>lodcloud-diagram-2014-08-30</dcterms:subject>
+    <dcat:distribution rdf:parseType="Resource">
+      <dcat:accessURL rdf:resource="http://download.geonames.org/all-geonames-rdf.zip"/>
+    </dcat:distribution>
+    <dcterms:publisher rdf:parseType="Resource">
+      <foaf:mbox>bernard.vatant@mondeca.com</foaf:mbox>
+      <rdfs:label>Bernard Vatant</rdfs:label>
+    </dcterms:publisher>
+    <dcterms:subject>format-cc</dcterms:subject>
+    <dcterms:subject>lod</dcterms:subject>
+    <dcterms:subject>no-license-metadata</dcterms:subject>
+    <dcterms:subject>geographic</dcterms:subject>
+    <dcterms:subject>no-provenance-metadata</dcterms:subject>
+    <dcterms:subject>lodcloud.nolinks</dcterms:subject>
+    <void:exampleResource rdf:resource="http://sws.geonames.org/6295630/"/>
+  </void:Dataset>
+</rdf:RDF>
