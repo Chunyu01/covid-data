@@ -1,0 +1,1674 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://bio.scai.fraunhofer.de/ontology/WHOmassgathering"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://bio.scai.fraunhofer.de/ontology/WHOmassgathering">
+    <Prefix name="" IRI="https://bio.scai.fraunhofer.de/ontology/WHOmassgathering"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/ontology/PoliticalFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/ontology/performer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://performedmusicontology.org/ontology/Concert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ExO_0000019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ExO_0000020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GSSO_000972"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NCIT_C17453"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NCIT_C63612"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OMIT_0014056"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PCO_0000033"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/STATO_0000093"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/UO_0000033"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/UO_0000035"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/UO_0000036"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.cbm.com/who_ontology#St._Patrick&apos;s_day"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CeBIT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Commonwealth_games"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consumer_Electronics_Show"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIFA_world_cup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#G20_Bali_summit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Games_Developer_Conference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hockey_World_Cup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Holi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#La_Tomatina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mardi_Gras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Masters_tournament"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oktoberfest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Olympic_games"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RSA_conference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rugby_World_Cup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#San_Fermin_festival"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Super_Bowl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_Asian_Games"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_UEFA_Champions_League"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tour_De_France_Cycling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wimbledon_championship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#World_Athletics_Championship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#carnival"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#christmas_market"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comic_Con"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cricket_world_cup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#electronic_entertainment_expo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flea_market"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lantern_festival"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mobile_world_congress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ticket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/ontology/FormulaOneRacing"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://cbm.com#SouceLink"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://cbm.com#SourceDatabase"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_NHC0"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_P106"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_P107"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_P108"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_P207"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_P322"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_P325"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_P366"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/identifier"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/isReferencedBy"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#broadMatch"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#narrowMatch"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="https://schema.org/alternateName"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://dbpedia.org/ontology/PoliticalFunction"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PCO_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://dbpedia.org/ontology/performer"/>
+        <Class IRI="http://performedmusicontology.org/ontology/Concert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://performedmusicontology.org/ontology/Concert"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PCO_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ExO_0000019"/>
+        <Class IRI="http://performedmusicontology.org/ontology/Concert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ExO_0000020"/>
+        <Class IRI="http://performedmusicontology.org/ontology/Concert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GSSO_000972"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PCO_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NCIT_C17453"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PCO_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NCIT_C63612"/>
+        <Class IRI="http://performedmusicontology.org/ontology/Concert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OMIT_0014056"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PCO_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/STATO_0000093"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GSSO_000972"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/STATO_0000093"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCIT_C17453"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/UO_0000033"/>
+        <Class IRI="http://purl.obolibrary.org/obo/STATO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/UO_0000035"/>
+        <Class IRI="http://purl.obolibrary.org/obo/STATO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/UO_0000036"/>
+        <Class IRI="http://purl.obolibrary.org/obo/STATO_0000093"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.cbm.com/who_ontology#St._Patrick&apos;s_day"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GSSO_000972"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CeBIT"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCIT_C17453"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Commonwealth_games"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMIT_0014056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consumer_Electronics_Show"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCIT_C17453"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FIFA_world_cup"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMIT_0014056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#G20_Bali_summit"/>
+        <Class IRI="http://dbpedia.org/ontology/PoliticalFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Games_Developer_Conference"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCIT_C17453"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hockey_World_Cup"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMIT_0014056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Holi"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GSSO_000972"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#La_Tomatina"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GSSO_000972"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mardi_Gras"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GSSO_000972"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Masters_tournament"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMIT_0014056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oktoberfest"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GSSO_000972"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Olympic_games"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMIT_0014056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RSA_conference"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCIT_C17453"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rugby_World_Cup"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMIT_0014056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#San_Fermin_festival"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GSSO_000972"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Super_Bowl"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMIT_0014056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Asian_Games"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMIT_0014056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_UEFA_Champions_League"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMIT_0014056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tour_De_France_Cycling"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMIT_0014056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wimbledon_championship"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMIT_0014056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#World_Athletics_Championship"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMIT_0014056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#carnival"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GSSO_000972"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#christmas_market"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GSSO_000972"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comic_Con"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GSSO_000972"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cricket_world_cup"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMIT_0014056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#electronic_entertainment_expo"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCIT_C17453"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flea_market"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GSSO_000972"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lantern_festival"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GSSO_000972"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mobile_world_congress"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCIT_C17453"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ticket"/>
+        <Class IRI="http://performedmusicontology.org/ontology/Concert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://dbpedia.org/ontology/FormulaOneRacing"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMIT_0014056"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://www.lawinsider.com/dictionary/political-function</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://dbpedia.org/ontology/PoliticalFunction</IRI>
+        <Literal>Any activity that is held for the purpose of supporting or opposing, or raising money to support or oppose, any candidate, ballot measure, or political party</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://dbpedia.org/ontology/PoliticalFunction</IRI>
+        <Literal>political function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://dictionary.cambridge.org/dictionary/english/performer</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://dbpedia.org/ontology/performer</IRI>
+        <Literal>A person who entertains people by acting, singing, dancing, or playing music.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+        <IRI>http://dbpedia.org/ontology/performer</IRI>
+        <Literal>Artist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://dbpedia.org/ontology/performer</IRI>
+        <Literal>perfomer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://performedmusicontology.org/ontology/Concert</IRI>
+        <Literal>Live musical performance of one or more works in front of an audience or in a single recording session</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://performedmusicontology.org/ontology/Concert</IRI>
+        <Literal>Concert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000019</IRI>
+        <Literal>A location that is happening or arising or located inside some limits, or especially, some surface.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000412"/>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000019</IRI>
+        <Literal>http://purl.obolibrary.org/obo/exo.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000019</IRI>
+        <Literal>indoor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000020</IRI>
+        <Literal>An exogenous location that is happening or arising or located outside</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000412"/>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000020</IRI>
+        <Literal>http://purl.obolibrary.org/obo/exo.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000020</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000020</IRI>
+        <Literal>outdoor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://cbm.com#SouceLink"/>
+            <Literal>https://wanderlust.events/</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://cbm.com#SourceDatabase"/>
+        <IRI>http://purl.obolibrary.org/obo/GSSO_000972</IRI>
+        <Literal>Wanderlust</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/GSSO_000972</IRI>
+        <Literal xml:lang="en">An event ordinarily celebrated by a community and centering on some characteristic aspect of that community and its religion or cultures.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000412"/>
+        <IRI>http://purl.obolibrary.org/obo/GSSO_000972</IRI>
+        <IRI>http://purl.obolibrary.org/obo/gsso.owl</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/identifier"/>
+        <IRI>http://purl.obolibrary.org/obo/GSSO_000972</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://homosaurus.org/terms/festivals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/isReferencedBy"/>
+        <IRI>http://purl.obolibrary.org/obo/GSSO_000972</IRI>
+        <IRI>https://books.google.com/books/?id=2VQkAQAAMAAJ</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/isReferencedBy"/>
+        <IRI>http://purl.obolibrary.org/obo/GSSO_000972</IRI>
+        <IRI>https://www.worldcat.org/oclc/940437564</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/GSSO_000972</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Festivals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/GSSO_000972</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Festival</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/GSSO_000972</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q132241</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/GSSO_000972</IRI>
+        <Literal xml:lang="en">festival event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GSSO_000972</IRI>
+        <Literal xml:lang="en">Festival</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://schema.org/alternateName"/>
+        <IRI>http://purl.obolibrary.org/obo/GSSO_000972</IRI>
+        <Literal xml:lang="en">festivals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000114</IRI>
+        <Literal>has curation status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000115</IRI>
+        <Literal>definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000116</IRI>
+        <Literal>editor note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000117</IRI>
+        <Literal>term editor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000119</IRI>
+        <Literal>definition source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000412</IRI>
+        <Literal>imported from</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://cbm.com#SouceLink"/>
+            <Literal>https://worldconferencecalendar.com/</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://cbm.com#SourceDatabase"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C17453</IRI>
+        <Literal>World conference calendar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C17453</IRI>
+        <Literal>A prearranged meeting for consultation or exchange of information or discussion, especially one with a formal agenda.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000412"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C17453</IRI>
+        <IRI>http://purl.obolibrary.org/obo/ncit.owl</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_NHC0"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C17453</IRI>
+        <Literal>C17453</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_P106"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C17453</IRI>
+        <Literal>Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_P108"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C17453</IRI>
+        <Literal>Conference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_P207"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C17453</IRI>
+        <Literal>C0086047</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_P366"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C17453</IRI>
+        <Literal>Conference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C17453</IRI>
+        <Literal>Conference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C17453</IRI>
+        <Literal>Conference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C63612</IRI>
+        <Literal>The employees of an organization; personnel who assist their superior in carrying out an assigned task.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000412"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C63612</IRI>
+        <IRI>http://purl.obolibrary.org/obo/ncit.owl</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000412"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C63612</IRI>
+        <Literal>http://purl.obolibrary.org/obo/ncit.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_NHC0"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C63612</IRI>
+        <Literal>C63612</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_P106"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C63612</IRI>
+        <Literal>Professional or Occupational Group</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_P107"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C63612</IRI>
+        <Literal>Staff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_P108"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C63612</IRI>
+        <Literal>Staff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_P207"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C63612</IRI>
+        <Literal>C0851286</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_P322"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C63612</IRI>
+        <Literal>BRIDG</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_P322"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C63612</IRI>
+        <Literal>CTRP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C63612</IRI>
+        <Literal>An individual who is employed and/or involved in any aspect of conduct of an organization&apos;s business.  EXAMPLE(S):  OTHER NAME(S):  NOTE(S):</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/NCIT_P366"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C63612</IRI>
+        <Literal>Staff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C63612</IRI>
+        <Literal>OrganizationStaff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C63612</IRI>
+        <Literal>Staff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C63612</IRI>
+        <IRI>http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C63612</IRI>
+        <IRI>http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C63612</IRI>
+        <IRI>http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159501</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C63612</IRI>
+        <IRI>http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159503</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_C63612</IRI>
+        <Literal>Staff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_NHC0</IRI>
+        <Literal>code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_P106</IRI>
+        <Literal>Semantic_Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_P108</IRI>
+        <Literal>Preferred_Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_P207</IRI>
+        <Literal>UMLS_CUI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/NCIT_P366</IRI>
+        <Literal>Legacy Concept Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://cbm.com#SouceLink"/>
+            <Literal>https://fixtur.es/en/wedstrijden/champions-league</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://cbm.com#SourceDatabase"/>
+        <IRI>http://purl.obolibrary.org/obo/OMIT_0014056</IRI>
+        <Literal>Fixtur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000412"/>
+        <IRI>http://purl.obolibrary.org/obo/OMIT_0014056</IRI>
+        <IRI>http://purl.obolibrary.org/obo/omit.owl</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/OMIT_0014056</IRI>
+        <Literal>Sports</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://cbm.com#SouceLink"/>
+            <Literal>https://www.acaps.org/covid-19-government-measures-dataset</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://cbm.com#SourceDatabase"/>
+        <IRI>http://purl.obolibrary.org/obo/PCO_0000033</IRI>
+        <Literal>CACAPS Covid-19 Governement Measures Dataset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cbm.com#SourceDatabase"/>
+        <IRI>http://purl.obolibrary.org/obo/PCO_0000033</IRI>
+        <Literal>EIOS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/PCO_0000033</IRI>
+        <Literal xml:lang="en">A type of social behavior in which a collection of humans intentionally gathers together on a temporary basis to engage socially.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000116"/>
+        <IRI>http://purl.obolibrary.org/obo/PCO_0000033</IRI>
+        <Literal xml:lang="en">Intented to replace http://purl.obolibrary.org/obo/GENEPIO_0001029</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>http://purl.obolibrary.org/obo/PCO_0000033</IRI>
+        <Literal xml:lang="en">GenEpiO curators</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000412"/>
+        <IRI>http://purl.obolibrary.org/obo/PCO_0000033</IRI>
+        <IRI>http://purl.obolibrary.org/obo/pco.owl</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PCO_0000033</IRI>
+        <Literal xml:lang="en">human social gathering activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <IRI>http://purl.obolibrary.org/obo/PCO_0000033</IRI>
+        <Literal>Mass Gathering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000114"/>
+        <IRI>http://purl.obolibrary.org/obo/STATO_0000093</IRI>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000123</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/STATO_0000093</IRI>
+        <Literal xml:lang="en">Information about a calendar date or timestamp indicating day, month, year and time of an event.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/STATO_0000093</IRI>
+        <Literal>Alejandra Gonzalez-Beltran</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/STATO_0000093</IRI>
+        <Literal>Orlaith Burke</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/STATO_0000093</IRI>
+        <Literal>Philippe Rocca-Serra</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>http://purl.obolibrary.org/obo/STATO_0000093</IRI>
+        <Literal xml:lang="en">STATO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000412"/>
+        <IRI>http://purl.obolibrary.org/obo/STATO_0000093</IRI>
+        <IRI>http://purl.obolibrary.org/obo/stato.owl</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/STATO_0000093</IRI>
+        <Literal xml:lang="en">date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000412"/>
+        <IRI>http://purl.obolibrary.org/obo/UO_0000033</IRI>
+        <IRI>http://purl.obolibrary.org/obo/uo.owl</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/UO_0000033</IRI>
+        <Literal>day</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000412"/>
+        <IRI>http://purl.obolibrary.org/obo/UO_0000035</IRI>
+        <IRI>http://purl.obolibrary.org/obo/uo.owl</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/UO_0000035</IRI>
+        <Literal>month</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000412"/>
+        <IRI>http://purl.obolibrary.org/obo/UO_0000036</IRI>
+        <IRI>http://purl.obolibrary.org/obo/uo.owl</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/UO_0000036</IRI>
+        <Literal>year</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/Saint_Patrick&apos;s_Day</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.cbm.com/who_ontology#St._Patrick&apos;s_day</IRI>
+        <Literal>Saint Patrick&apos;s Day is a cultural and religious celebration held on 17 March, the traditional death date of Saint Patrick the foremost patron saint of Ireland.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+        <IRI>http://www.cbm.com/who_ontology#St._Patrick&apos;s_day</IRI>
+        <Literal>Feast of Saint Patrick or Lá Fhéile Pádraig or  The Day of the Festival of Patrick</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cbm.com/who_ontology#St._Patrick&apos;s_day</IRI>
+        <Literal>St. Patrick&apos;s day</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.cbm.com/who_ontology#St._Patrick&apos;s_day</IRI>
+        <Literal>https://www.roadaffair.com/best-festivals-in-the-world/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/CeBIT</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#CeBIT</IRI>
+        <Literal>CeBIT was the largest and most internationally representative computer expo. The trade fair was held each year on the Hanover fairground, the world&apos;s largest fairground, in Hanover, Germany.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+        <IRI>#CeBIT</IRI>
+        <Literal>Centrum für Büroautomation, Informationstechnologie und Telekommunikation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CeBIT</IRI>
+        <Literal>CeBIT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#CeBIT</IRI>
+        <Literal>https://www.theceomagazine.com/business/finance/20-influential-business-conference/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cbm.com#SourceDatabase"/>
+        <IRI>#Commonwealth_games</IRI>
+        <Literal>EIOS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/Commonwealth_Games</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#Commonwealth_games</IRI>
+        <Literal>The Commonwealth Games are a quadrennial international multi-sport event among athletes from the Commonwealth of Nations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Commonwealth_games</IRI>
+        <Literal>Commonwealth games</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Commonwealth_games</IRI>
+        <Literal>https://www.javatpoint.com/major-sports-events-in-the-world</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#narrowMatch"/>
+        <IRI>#Commonwealth_games</IRI>
+        <Literal>2022 Commonwealth Games</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/Consumer_Electronics_Show</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#Consumer_Electronics_Show</IRI>
+        <Literal>Consumer Electronics Show is an annual trade show organized by the Consumer Technology Association (CTA). Held in January at the Las Vegas Convention Center in Winchester, Nevada, United States, the event typically hosts presentations of new products and technologies in the consumer electronics industry.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Consumer_Electronics_Show</IRI>
+        <Literal>consumer electronics show</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Consumer_Electronics_Show</IRI>
+        <Literal>https://www.travelperk.com/blog/biggest-tech-conferences-in-the-world/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cbm.com#SourceDatabase"/>
+        <IRI>#FIFA_world_cup</IRI>
+        <Literal>EIOS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/FIFA_World_Cup</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#FIFA_world_cup</IRI>
+        <Literal>The FIFA World Cup is an international association football competition contested by the senior men&apos;s national teams of the members of the Fédération Internationale de Football Association (FIFA), the sport&apos;s global governing body.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+        <IRI>#FIFA_world_cup</IRI>
+        <Literal>World Cup</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FIFA_world_cup</IRI>
+        <Literal>FIFA world cup</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#FIFA_world_cup</IRI>
+        <Literal>https://www.javatpoint.com/major-sports-events-in-the-world</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#narrowMatch"/>
+        <IRI>#FIFA_world_cup</IRI>
+        <Literal>FIFA 2022</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+        <IRI>#FIFA_world_cup</IRI>
+        <Literal>FIFA-2022-Places</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cbm.com#SourceDatabase"/>
+        <IRI>#G20_Bali_summit</IRI>
+        <Literal>EIOS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/2022_G20_Bali_summit</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#G20_Bali_summit</IRI>
+        <Literal>The 2022 G20 Bali summit was the seventeenth meeting of Group of Twenty (G20), which was held in Nusa Dua, Bali, Indonesia on 15–16 November 2022.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#G20_Bali_summit</IRI>
+        <Literal>2022 G20 Bali summit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#G20_Bali_summit</IRI>
+        <Literal>https://www.g20.org/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <IRI>#G20_Bali_summit</IRI>
+        <Literal>2022 G20 Bali Summit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/Game_Developers_Conference</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#Games_Developer_Conference</IRI>
+        <Literal>The Game Developers Conference is an annual conference for video game developers. The event includes an expo, networking events, and awards shows like the Game Developers Choice Awards and Independent Games Festival, and a variety of tutorials, lectures, and roundtables by industry professionals on game-related topics covering programming, design, audio, production, business and management, and visual arts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+        <IRI>#Games_Developer_Conference</IRI>
+        <Literal>GDC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Games_Developer_Conference</IRI>
+        <Literal>games developer conference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Games_Developer_Conference</IRI>
+        <Literal>https://gdconf.com/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/Men%27s_FIH_Hockey_World_Cup</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#Hockey_World_Cup</IRI>
+        <Literal>The Hockey World Cup is an international field hockey competition organised by the International Hockey Federation (FIH).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+        <IRI>#Hockey_World_Cup</IRI>
+        <Literal>The Men&apos;s FIH Hockey World Cup</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hockey_World_Cup</IRI>
+        <Literal>hockey world cup</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Hockey_World_Cup</IRI>
+        <Literal>https://www.javatpoint.com/major-sports-events-in-the-world</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/Holi</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#Holi</IRI>
+        <Literal>Holi is an ancient Hindu tradition and also one of the most popular festivals in Hinduism.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Holi</IRI>
+        <Literal>Holi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Holi</IRI>
+        <Literal>https://www.roadaffair.com/best-festivals-in-the-world/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://www.latomatinatours.com/</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#La_Tomatina</IRI>
+        <Literal>La Tomatina is a food fight festival held on the last Wednesday of August each year in the town of Buñol (history) near to Valencia in Spain.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#La_Tomatina</IRI>
+        <Literal>La Tomatina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#La_Tomatina</IRI>
+        <Literal>https://www.roadaffair.com/best-festivals-in-the-world/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://de.wikipedia.org/wiki/Mardi_Gras</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#Mardi_Gras</IRI>
+        <Literal>Mardi Gras is the French term for Shrove Tuesday, the last day of the carnival celebrated before Ash Wednesday , the beginning of Easter , especially in Catholic areas Lent .</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mardi_Gras</IRI>
+        <Literal>Mardi Gras</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Mardi_Gras</IRI>
+        <Literal>https://www.audleytravel.com/blog/2011/september/top-festivals-around-the-world</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/Masters_Tournament</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#Masters_tournament</IRI>
+        <Literal>The Masters Tournament is one of the four major championships in professional golf. Scheduled for the first full week of April, the Masters is the first major of the year, and unlike the others, it is always held at the same location, Augusta National Golf Club, a private course in the city of Augusta, Georgia, in the southeastern United States.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+        <IRI>#Masters_tournament</IRI>
+        <Literal>The Masters or the U.S. Masters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Masters_tournament</IRI>
+        <Literal>Masters tournament</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Masters_tournament</IRI>
+        <Literal>https://www.javatpoint.com/major-sports-events-in-the-world</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/Oktoberfest</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#Oktoberfest</IRI>
+        <Literal>Oktoberfest is the world&apos;s largest Volksfest, featuring a beer festival and a travelling carnival</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Oktoberfest</IRI>
+        <Literal>Oktoberfest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Oktoberfest</IRI>
+        <Literal>https://www.roadaffair.com/best-festivals-in-the-world/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cbm.com#SourceDatabase"/>
+        <IRI>#Olympic_games</IRI>
+        <Literal>EIOS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/Summer_Olympic_Games</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#Olympic_games</IRI>
+        <Literal>The Olympic Games is a major international multi-sport event normally held once every four years. The International Olympic Committee (IOC) is responsible for organising the Games and for overseeing the host city&apos;s preparations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Olympic_games</IRI>
+        <Literal>Olympic games</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Olympic_games</IRI>
+        <Literal>https://www.javatpoint.com/major-sports-events-in-the-world</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+        <IRI>#Olympic_games</IRI>
+        <Literal>Beijing 2022</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://rsac.vporoom.com/about</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#RSA_conference</IRI>
+        <Literal>RSA Conference is the premier provider of global events and year-round online cybersecurity content</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+        <IRI>#RSA_conference</IRI>
+        <Literal>Rivest, Shamir, and Adleman Conference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RSA_conference</IRI>
+        <Literal>RSA conference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#RSA_conference</IRI>
+        <Literal>https://www.travelperk.com/blog/biggest-tech-conferences-in-the-world/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/Rugby_World_Cup</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#Rugby_World_Cup</IRI>
+        <Literal>The Rugby World Cup is a men&apos;s rugby union tournament contested every four years between the top international teams.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rugby_World_Cup</IRI>
+        <Literal>Rugby World Cup</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Rugby_World_Cup</IRI>
+        <Literal>https://www.javatpoint.com/major-sports-events-in-the-world</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/Festival_of_San_Ferm%C3%ADn</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#San_Fermin_festival</IRI>
+        <Literal>The festival of San Fermín is a weeklong, historically rooted celebration held annually in the city of Pamplona, Navarre, in northern Spain.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+        <IRI>#San_Fermin_festival</IRI>
+        <Literal>Sanfermin or El Encierro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#San_Fermin_festival</IRI>
+        <Literal>San Fermin festival</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#San_Fermin_festival</IRI>
+        <Literal>https://www.virtuoso.com/travel/articles/7-global-festivals-you-have-to-experience</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/Super_Bowl</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#Super_Bowl</IRI>
+        <Literal>The Super Bowl is the annual final playoff game of the National Football League (NFL) to determine the league champion. It has served as the final game of every NFL season since 1966, replacing the NFL Championship Game.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Super_Bowl</IRI>
+        <Literal>Super Bowl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Super_Bowl</IRI>
+        <Literal>https://www.javatpoint.com/major-sports-events-in-the-world</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/Asian_Games</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#The_Asian_Games</IRI>
+        <Literal>The Asian Games is a continental multi-sport event held every four years among athletes from all over Asia. The Games were regulated by the Asian Games Federation (AGF) from the first Games in New Delhi, India, until the 1978 Games.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+        <IRI>#The_Asian_Games</IRI>
+        <Literal>Asiad</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#The_Asian_Games</IRI>
+        <Literal>The Asian Games</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#The_Asian_Games</IRI>
+        <Literal>https://www.javatpoint.com/major-sports-events-in-the-world</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/UEFA_Champions_League</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#The_UEFA_Champions_League</IRI>
+        <Literal>The UEFA Champions League is an annual club football competition organised by the Union of European Football Associations (UEFA) and contested by top-division European clubs, deciding the competition winners through a round robin group stage to qualify for a double-legged knockout format, and a single leg final.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+        <IRI>#The_UEFA_Champions_League</IRI>
+        <Literal>UCL or UEFA CL or Union of European Football Associations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#The_UEFA_Champions_League</IRI>
+        <Literal>UEFA Champions League</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#The_UEFA_Champions_League</IRI>
+        <Literal>https://www.javatpoint.com/major-sports-events-in-the-world</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/Tour_de_France</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#Tour_De_France_Cycling</IRI>
+        <Literal>The Tour de France is an annual men&apos;s multiple-stage bicycle race primarily held in France, while also occasionally passing through nearby countries.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+        <IRI>#Tour_De_France_Cycling</IRI>
+        <Literal>Tour de France</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tour_De_France_Cycling</IRI>
+        <Literal>Tour de France Cycling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Tour_De_France_Cycling</IRI>
+        <Literal>https://www.javatpoint.com/major-sports-events-in-the-world</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/Wimbledon_Championships</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#Wimbledon_championship</IRI>
+        <Literal>The Wimbledon Championships is the oldest tennis tournament in the world and is widely regarded as the most prestigious.It has been held at the All England Club in Wimbledon, London, since 1877 and is played on outdoor grass courts, with retractable roofs over the two main courts since 2019.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+        <IRI>#Wimbledon_championship</IRI>
+        <Literal>Wimbledon or Wimbledon Tennis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Wimbledon_championship</IRI>
+        <Literal>Wimbledon championship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Wimbledon_championship</IRI>
+        <Literal>https://www.javatpoint.com/major-sports-events-in-the-world</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/World_Athletics_Championships</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#World_Athletics_Championship</IRI>
+        <Literal>The World Athletics Championships are a biennial athletics competition organized by World Athletics (formerly IAAF, International Association of Athletics Federations).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+        <IRI>#World_Athletics_Championship</IRI>
+        <Literal>World Championships in Athletics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#World_Athletics_Championship</IRI>
+        <Literal>World Athletics Championship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#World_Athletics_Championship</IRI>
+        <Literal>https://www.javatpoint.com/major-sports-events-in-the-world</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://dictionary.cambridge.org/dictionary/english/carnival</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#carnival</IRI>
+        <Literal>A special occasion or period of public enjoyment and entertainment involving wearing unusual clothes, dancing, and eating and drinking, usually held in the streets of a city</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#carnival</IRI>
+        <Literal>carnival</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#carnival</IRI>
+        <Literal>https://www.roadaffair.com/best-festivals-in-the-world/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://www.lawinsider.com/dictionary/christmas-market</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#christmas_market</IRI>
+        <Literal>Any market other than the Retail Market held on any days designated by the Council during the month of December.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#christmas_market</IRI>
+        <Literal>christmas market</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#christmas_market</IRI>
+        <Literal>https://theculturetrip.com/europe/germany/articles/the-10-largest-christmas-markets-in-the-world/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/Comic_book_convention</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#comic_Con</IRI>
+        <Literal>A comic-con (is a minimum of a 3 day event)is an event with a primary focus on comic books and comic book culture, in which comic book fans gather to meet creators, experts, and each other.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#comic_Con</IRI>
+        <Literal>comic con</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#comic_Con</IRI>
+        <Literal>https://www.comic-con.org/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/Cricket_World_Cup</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#cricket_world_cup</IRI>
+        <Literal>The Cricket World Cup is the international championship of One Day International (ODI) cricket.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+        <IRI>#cricket_world_cup</IRI>
+        <Literal>ICC Men&apos;s Cricket World Cup</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cricket_world_cup</IRI>
+        <Literal>cricket world cup</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#cricket_world_cup</IRI>
+        <Literal>https://www.javatpoint.com/major-sports-events-in-the-world</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/E3</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#electronic_entertainment_expo</IRI>
+        <Literal>E3 is a trade event for the video game industry. The Entertainment Software Association (ESA) organizes and presents E3, which many developers, publishers, hardware, and accessory manufacturers use to introduce and advertise upcoming games and game-related merchandise to retailers and to members of the press.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+        <IRI>#electronic_entertainment_expo</IRI>
+        <Literal>Electronic Entertainment Expo or Electronic Entertainment Experience</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#electronic_entertainment_expo</IRI>
+        <Literal>electronic entertainment expo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#electronic_entertainment_expo</IRI>
+        <Literal>https://www.theceomagazine.com/business/finance/20-influential-business-conference/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/Flea_market</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#flea_market</IRI>
+        <Literal>A flea market is a type of street market that provides space for vendors to sell previously owned (second-hand) goods.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+        <IRI>#flea_market</IRI>
+        <Literal>swap market</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#flea_market</IRI>
+        <Literal>flea market</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#flea_market</IRI>
+        <Literal>https://www.fleamarketinsiders.com/best-15-mega-flea-markets-in-europe/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/Lantern_Festival</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#lantern_festival</IRI>
+        <Literal>A Chinese traditional festival celebrated on the fifteenth day of the first month in the lunisolar Chinese calendar, during the full moon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+        <IRI>#lantern_festival</IRI>
+        <Literal>Yuan Xiao Festival</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lantern_festival</IRI>
+        <Literal>lantern festival</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#lantern_festival</IRI>
+        <Literal>https://www.roadaffair.com/best-festivals-in-the-world/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/Mobile_World_Congress</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#mobile_world_congress</IRI>
+        <Literal>MWC Barcelona (formerly but still commonly referred to as Mobile World Congress) is an annual trade show organised by GSMA, dedicated primarily to the mobile communications industry.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+        <IRI>#mobile_world_congress</IRI>
+        <Literal>MWC Barcelona or MWC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mobile_world_congress</IRI>
+        <Literal>mobile world congress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#mobile_world_congress</IRI>
+        <Literal>https://www.travelperk.com/blog/biggest-tech-conferences-in-the-world/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://dictionary.cambridge.org/dictionary/english/ticket</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#ticket</IRI>
+        <Literal>A small piece of paper or card given to someone, usually to show that they have paid for an event, journey, or activity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ticket</IRI>
+        <Literal>ticket</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://en.wikipedia.org/wiki/Formula_One</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>https://dbpedia.org/ontology/FormulaOneRacing</IRI>
+        <Literal>Formula One is the highest class of international racing for open-wheel single-seater formula racing cars sanctioned by the Fédération Internationale de l&apos;Automobile (FIA).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+        <IRI>https://dbpedia.org/ontology/FormulaOneRacing</IRI>
+        <Literal>F1 or Formula 1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://dbpedia.org/ontology/FormulaOneRacing</IRI>
+        <Literal>formula one racing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>https://dbpedia.org/ontology/FormulaOneRacing</IRI>
+        <Literal>https://www.javatpoint.com/major-sports-events-in-the-world</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
